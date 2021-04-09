@@ -51,14 +51,15 @@ def splitData(commit_infor_file:str, original_file:str, threshold, characteristi
 
 if __name__ == "__main__":
 
-    # commit_infor_file = "/Users/fjirigesi/Desktop/Jiri_openstack_train_infor.csv"
-    # original_file = '/Users/fjirigesi/Downloads/data+model/data/jit/openstack_train.pkl'
+    commit_infor_file = "/Users/fjirigesi/Desktop/Jiri_openstack_train_infor.csv"
+    original_file = '/Users/fjirigesi/Downloads/data+model/data/jit/openstack_train.pkl'
 
-    commit_infor_file = "/Users/fjirigesi/Documents/defect_prediction_unfaieness-main/DeepJIT/OSresults/OS_result.csv"
-    original_file = "/Users/fjirigesi/Downloads/data+model/data/jit/openstack_test.pkl"
+    # commit_infor_file = "/Users/fjirigesi/Documents/defect_prediction_unfaieness-main/DeepJIT/OSresults/OS_result.csv"
+    # original_file = "/Users/fjirigesi/Downloads/data+model/data/jit/openstack_test.pkl"
 
-    threshold = 6.04
-    characteristic = "Filecount"
+    threshold = 143.3
+    characteristic = "Editcount"
+    # characteristic = "Filecount"
 
     OS_threshold_dict = {
         "Filecount": 6.04,

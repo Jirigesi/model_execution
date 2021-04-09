@@ -12,7 +12,7 @@ import csv
 
 # os.chdir("/home/fjiriges/model_execution")
 # characters= ["Filecount", "Editcount", "MultilineCommentscount"]
-characters= ["Filecount"]
+characters= ["Editcount"]
 levels = [ "hard", "easy"]
 
 for character in characters:
