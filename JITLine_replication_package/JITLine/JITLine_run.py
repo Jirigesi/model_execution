@@ -206,6 +206,9 @@ def eval_result(proj_name,sampling_method = 'DE_SMOTE_min_df_3'):
 
 
     # print('Precision: {:.2f}, Recall: {:.2f}, F1: {:.2f}, AUC: {:.2f}, FAR: {:.2f}, d2h: {:.2f}, PCI@20%LOC: {:.2f}, Effort@20%Recall: {:.2f}, POpt: {:.2f}'.format(prec, rec, f1, auc, FAR, dist_heaven, recall_20_percent_effort, effort_at_20_percent_LOC_recall,p_opt))
+
+    print('Precision: {:.2f}, Recall: {:.2f}, F1: {:.2f}, AUC: {:.2f}'.format(prec, rec, f1, auc))
+
     return (prec, rec, f1, auc)
 
 

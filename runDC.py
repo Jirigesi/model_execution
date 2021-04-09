@@ -33,7 +33,9 @@ for character in characters:
         os.chdir("/home/fjiriges/model_execution/JITLine_replication_package/JITLine")
         for i in range(3):
             ######
-            projects = ['openstack','qt']
+            print("################")
+            print("-----Runing ",i, character, level, " model-------")
+            projects = ['openstack', 'qt']
             sampling_methods = 'DE_SMOTE_min_df_3'
             remove_python_common_tokens = True
             # os.chdir("JITLine_replication_package/JITLine")
