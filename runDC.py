@@ -31,7 +31,7 @@ for character in characters:
         print("moved training files")
 
         os.chdir("/home/fjiriges/model_execution/JITLine_replication_package/JITLine")
-        for i in range(10):
+        for i in range(3):
             ######
             projects = ['openstack','qt']
             sampling_methods = 'DE_SMOTE_min_df_3'
