@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 
 result_collctor/.DS_Store
+.idea/
