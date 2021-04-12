@@ -12,7 +12,7 @@ import csv
 
 # os.chdir("/home/fjiriges/model_execution")
 # characters= ["Filecount", "Editcount", "MultilineCommentscount"]
-characters= ["MultilineCommentscount"]
+characters= ["Filecount"]
 levels = [ "hard", "easy"]
 
 for character in characters:
@@ -31,7 +31,7 @@ for character in characters:
         print("moved training files")
 
         os.chdir("/home/fjiriges/model_execution/JITLine_replication_package/JITLine")
-        for i in range(3):
+        for i in range(2):
             ######
             print("################")
             print("-----Runing ",i, character, level, " model-------")
